@@ -1,0 +1,53 @@
+.Timeinfo {
+	width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.frame {
+	overflow: hidden;
+	background-color: blue;
+	position: absolute;
+	height: 20px;
+    width: fit-content;
+	right: 10px;
+	border-radius: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 2px;
+}
+.text {
+	padding-right: 23px;
+	padding-left: 13px;
+    color: white;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+}
+.G{
+  top: 0px;
+  background-color: #15ff00;  
+}
+.O{
+  top: 0px;
+  background-color: #fff200;  
+}
+.R{
+  top: 0px;
+  background-color: #ff0000;
+}
+.fG{
+  top: 10px; 
+}
+.fO{
+  top: 40px;
+}
+.fR{
+  top: 70px;
+}
